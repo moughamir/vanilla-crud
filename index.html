@@ -1,13 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla CRUD</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barebone Vanilla CRUD</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Vanilla CRUD</h1>
+      <h2>HTML, CSS, Javascript</h2>
+    </header>
+    <section class="content">
+      <article class="table-container">
+        <table id="users-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Date de création</th>
+              <th>Etat</th>
+              <th>Nom</th>
+              <th>Prénom</th>
+              <th>Nom d'utilisateur</th>
+              <th>Matricule</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="user-id-0">
+              <td>ID</td>
+              <td>createdDate</td>
+              <td>status</td>
+              <td>lastName</td>
+              <td>firstName</td>
+              <td>username</td>
+              <td>registrationNumber</td>
+              <td>Action</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <aside class="table-cta">
+        <button id="btn-add">Add user</button>
+      </aside>
+    </section>
+  </main>
+  <script src="assets/app.js"></script>
+</body>
+
 </html>
