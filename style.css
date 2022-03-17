@@ -1,0 +1,58 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.hello {
+  background-color: #5BE881;
+}
+.valide {
+  background-color: #5BE881;
+}
+
+.rejected {
+  background-color: #FF0000;
+}
+
+.on-validation {
+  background-color: #FDB64D;
+}
+
+
+.table-users {
+  width: 90%;
+  border:  1px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px -3px;
+  padding: 35px 18px;
+  margin: 5px;
+}
+
+tbody {
+  padding: 5px;
+  margin: 5px;
+}
+tbody tr {
+  /*! padding: 6px; */
+  border: 2px solid red;
+  box-shadow:  0px 3px 5px -4px #3c3c3c;
+  height: 42px;
+  display: table-row;
+  border-bottom: 17px dashed red;
+  text-align:center;
+}
+tbody tr:hover {
+  background: #3c3c3c08;
+  box-shadow: 0px 4px 10px -5px #3c3c3c;
+  transition: all 500ms ease;
+}
+tr span {
+  color: white;
+  font-size: 18px;
+  font-family: 'sans';
+  padding: 5px;
+  border-radius: 7px;
+}
